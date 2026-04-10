@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "include": ["src", "dev-only.d.ts"],
+  "exclude": ["dist"],
+  "compilerOptions": {
+    "rootDir": "./src",
+    "allowJs": true,
+    "declarationDir": "./dist",
+    "outDir": "./dist",
+    "jsx": "preserve",
+    "erasableSyntaxOnly": true
+  }
+}
